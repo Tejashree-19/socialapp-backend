@@ -74,5 +74,11 @@ To handle race conditions under heavy load:
 ## 🐳 Running the Project
 
 ### Start services
-```bash
+bash
 docker-compose up -d
+
+## 🔥 Future Improvements
+
+- Add authentication (JWT-based login)
+- Add pagination for posts/comments
+- Add real-time updates using WebSockets
